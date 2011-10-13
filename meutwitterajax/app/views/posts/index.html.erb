@@ -1,0 +1,15 @@
+<%= render :partial => "users/login" %></p>
+<!--<% if logged_in? %>
+<p class="friends"><%= link_to "My friends", { :controller => "users", :action => "show", :id => current_user } %>
+<%= link_to "Search for friends", users_path %></p>
+<% end %>-->
+<%= render :partial => "message_form" %>
+<div id="posts">
+<%= render :partial => @posts %>
+<body>  
+  <div id="content">  
+    <%= yield %>  
+  </div>  
+</body> 
+</div>
+

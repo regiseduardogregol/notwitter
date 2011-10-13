@@ -1,0 +1,9 @@
+body{font-family: tahoma, sans-serif;font-size: 18px; background-color: #94E4E8; width: 100%;color: #ffffff; margin: 0;text-align:center;}
+#content{width: 650px; margin: 0 auto;text-align: left;}
+#content h1{display:inline;}
+#content p.login{float:right;}
+#content p.login a{color:#398084;text-decoration:none;border-bottom: 1px dashed #fff;}
+#content p.login a:hover{color:#fff;}
+#content p.friends a{padding: 5px 10px 5px 10px;color:#398084;text-decoration:none;border:1px dashed #fff;-moz-border-radius: .5em; border-radius: .5em;}
+#content p.friends a:hover{background-color: #ffffff;}
+.post{padding: 5px 20px 5px 20px;background-color: #ffffff;margin: 20px 0 20px 0;color: #000000; -moz-border-radius: .5em; border-radius: .5em;}
